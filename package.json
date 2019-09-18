@@ -4,16 +4,25 @@
         "dev": "npm run development",
         "development": "cross-env NODE_ENV=development webpack --progress --hide-modules",
         "watch": "npm run development -- --watch",
-        "watch-poll": "npm run watch -- --watch-poll",
         "prod": "npm run production",
         "production": "cross-env NODE_ENV=production webpack --no-progress --hide-modules"
     },
     "devDependencies": {
+        "@babel/core": "^7.6.0",
+        "@babel/preset-env": "^7.6.0",
         "axios": "^0.19",
+        "babel-loader": "^8.0.6",
+        "copy-webpack-plugin": "^5.0.4",
         "cross-env": "^5.1",
+        "css-loader": "^3.2.0",
+        "file-loader": "^4.2.0",
         "lodash": "^4.17.13",
+        "mini-css-extract-plugin": "^0.8.0",
+        "node-sass": "^4.12.0",
         "resolve-url-loader": "^2.3.1",
         "sass": "^1.15.2",
-        "sass-loader": "^7.1.0"
+        "sass-loader": "^7.3.1",
+        "webpack": "^4.40.2",
+        "webpack-cli": "^3.3.9"
     }
 }
