@@ -9,6 +9,9 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <!-- Main styles -->
+        <link rel="stylesheet" type="text/css" href="{{ url('/css/app.css') }}">
+
         <!-- Styles -->
         <style>
             html, body {
@@ -84,7 +87,7 @@
                     Welcome to askonline!
                 </div>
                 <div>
-                    <p>A platform where anyone can ask or answer anything.</p>
+                    <h3 class="text-primary font-weight-bold">A platform where anyone can ask or answer anything.</h3>
                 </div>
 
                 <!--
@@ -101,5 +104,7 @@
                 -->
             </div>
         </div>
+
+    <script type="text/javascript" src="{{ url('/js/app.js') }}"></script>
     </body>
 </html>
