@@ -1,1 +1,10 @@
-//
+/**
+ * This is the Global askonline Stylesheet that will be included in all
+ * laravel blade pages.
+ * ---------------------------------------------------------------------
+ * Set up bootstrap 4.3
+ * ---------------------------------------------------------------------
+ */
+@import "../../node_modules/bootstrap/scss/functions"; // this needs to be imported first so we can duplicate the variables
+@import "variables"; // import a custom variables file which overwrites all colour definitions in bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap"; // import all other bootstrap mixins
