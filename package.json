@@ -23,7 +23,7 @@
         "sass": "^1.15.2",
         "sass-loader": "^7.3.1",
         "webpack": "^4.40.2",
-        "webpack-cli": "^3.3.9"
+        "webpack-cli": "^3.3.12"
     },
     "dependencies": {
         "bootstrap": "^4.3.1",
